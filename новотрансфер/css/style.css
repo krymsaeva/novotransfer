@@ -1,0 +1,1485 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-wight:1200px){
+    body{
+        max-width: 970px;
+    }
+}
+
+
+@media (max-wight:992px){
+    body{
+        max-width: 750px;
+    }
+}
+
+
+@media (max-wight:767px){
+    body{
+        max-width:none;
+    }
+}
+
+
+
+header {
+    position: absolute;
+    height: 638px;
+    width: 1517px;
+    background: url("../img/image.png") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    left: 0;
+    top: 0;
+}
+
+.advantages {
+    width: 570px;
+    height: 70px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 175%;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 100px;
+    margin-left: 145px;
+}
+
+
+.logo {
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 209px;
+}
+
+.title {
+    margin-left: 229px;
+    width: 482px;
+    height: 35px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 130%;
+    font-feature-settings: 'liga' off;
+    color: #E84A0D;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.text {
+    width: 570px;
+    height: 105px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 175%;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+    margin-left: 145px;
+    margin-top: 50px;
+}
+
+.fleet {
+    position: relative;
+    top: 638px;
+    width: 100%;
+    height: 350px;
+
+}
+
+.named {
+    margin-left: 150px;
+    margin-top: -130px;
+    width: 665px;
+    height: 48px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 48px;
+    font-feature-settings: 'liga' off;
+    color: #771975;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.fleet p {
+    margin-left: 150px;
+    width: 665px;
+    height: 70px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 175%;
+    font-feature-settings: 'liga' off;
+    color: #000000;
+}
+
+
+.model {
+    margin-top: 150px;
+    margin-left: 999px;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+}
+
+.accordion-item--active .accordion-item_trigger {
+    background-color: #fff;
+
+}
+
+.accordion-item--active .accordion-item_content {
+    display: block;
+    background-color: #fff;
+
+}
+
+.accordion-item_trigger {
+    padding: 20px;
+    border: none;
+    background: linear-gradient(90deg, #EA4106 0%, #761976 100%);
+    border-radius: 50px;
+    color: #FFFFFF;
+    margin-left: 1000px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 17px;
+    text-align: center;
+}
+
+
+@media (max-wight:1200px){
+    .accordion-item_trigger{
+        max-width: 300px;
+    }
+}
+
+
+
+
+
+.accordion-item_trigger::before {
+    content: "Показать автопарк";
+
+}
+
+.accordion-item_trigger::after {
+    content: url("../img/eye.png");
+    margin-left: 10px;
+}
+
+.accordion-item_trigger.close::before {
+    content: "Свернуть";
+
+}
+
+.accordion-item_trigger.close::after {
+    content: url("../img/eye-slash.png");
+}
+
+
+.accordion-item_content {
+    padding: 20px;
+    border: 1px solid black;
+    border: none;
+    display: none;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+
+.section_1 {
+    display: flex;
+    justify-content: baseline;
+}
+
+.model_1 {
+    width: 300px;
+    height: 400px;
+    margin-left: 120px;
+}
+
+.model_1 img {
+    margin-top: 10px;
+}
+
+.model_1 h2 {
+    margin-left: 0px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #771975;
+}
+
+.model_1 p {
+    width: 340px;
+    margin-left: 0px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    font-feature-settings: 'liga' off;
+    color: #000;
+}
+
+.model_2 {
+    width: 300px;
+    height: 400px;
+    margin-left: 150px;
+
+}
+
+.model_2 img {
+    margin-top: 10px;
+}
+
+.model_2 h2 {
+    margin-left: 0px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #771975;
+}
+
+.model_2 p {
+    margin-left: 0px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    font-feature-settings: 'liga' off;
+    color: #000;
+}
+
+.model_3 {
+    width: 200px;
+    height: 400px;
+    margin-left: 180px;
+
+}
+
+.model_3 img {
+    margin-top: 10px;
+}
+
+.model_3 h2 {
+    margin-left: 0px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #771975;
+}
+
+.model_3 p {
+    margin-left: 0px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    font-feature-settings: 'liga' off;
+    color: #000;
+    width: 340px;
+}
+
+.section_2 {
+    display: flex;
+    justify-content: baseline;
+}
+
+
+.model_4 {
+    width: 200px;
+    height: 400px;
+    margin-left: 100px;
+
+}
+
+.model_4 img {
+    margin-top: 10px;
+}
+
+.model_4 h2 {
+    margin-left: 0px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #771975;
+}
+
+.model_4 p {
+    margin-left: 0px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    font-feature-settings: 'liga' off;
+    color: #000;
+    width: 340px;
+}
+
+
+.model_5 {
+    width: 300px;
+    height: 400px;
+    margin-left: 300px;
+
+}
+
+.model_5 img {
+    margin-top: 10px;
+}
+
+.model_5 h2 {
+    margin-left: 0px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #771975;
+}
+
+.model_5 p {
+    margin-left: 0px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    font-feature-settings: 'liga' off;
+    color: #000;
+}
+
+
+.model_6 {
+    width: 200px;
+    height: 400px;
+    margin-left: 180px;
+
+}
+
+.model_6 img {
+    margin-top: 10px;
+}
+
+.model_6 h2 {
+    margin-left: 0px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #771975;
+}
+
+.model_6 p {
+    margin-left: 0px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    font-feature-settings: 'liga' off;
+    color: #000;
+    width: 340px;
+}
+
+
+.section_3 {
+    display: flex;
+    justify-content: baseline;
+}
+
+
+
+.model_7 {
+    width: 200px;
+    height: 400px;
+    margin-left: 100px;
+
+}
+
+.model_7 img {
+    margin-top: 10px;
+}
+
+.model_7 h2 {
+    margin-left: 0px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #771975;
+}
+
+.model_7 p {
+    margin-left: 0px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    font-feature-settings: 'liga' off;
+    color: #000;
+    width: 340px;
+}
+
+
+
+.model_8 {
+    width: 300px;
+    height: 400px;
+    margin-left: 300px;
+
+}
+
+.model_8 img {
+    margin-top: 10px;
+}
+
+.model_8 h2 {
+    margin-left: 0px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #771975;
+}
+
+.model_8 p {
+    margin-left: 0px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    font-feature-settings: 'liga' off;
+    color: #000;
+}
+
+.model_9 {
+    width: 200px;
+    height: 400px;
+    margin-left: 180px;
+
+}
+
+.model_9 img {
+    margin-top: 10px;
+}
+
+.model_9 h2 {
+    margin-left: 0px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #771975;
+}
+
+.model_9 p {
+    margin-left: 0px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    font-feature-settings: 'liga' off;
+    color: #000;
+    width: 340px;
+}
+
+
+.model_10 {
+    width: 200px;
+    height: 400px;
+    margin-left: 100px;
+
+}
+
+.model_10 img {
+    margin-top: 10px;
+}
+
+.model_10 h2 {
+    margin-left: 0px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #771975;
+}
+
+.model_10 p {
+    margin-left: 0px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    font-feature-settings: 'liga' off;
+    color: #000;
+    width: 340px;
+}
+
+
+.why {
+    position: absolute;
+    width: 1517px;
+    height: 1500px;
+    background: url("../img/bg_about\ 1.png");
+    margin-top: 700px;
+}
+
+.why.margin {
+    margin-top: 2200px;
+}
+
+.we {
+    position: absolute;
+    width: 1110px;
+    height: 60px;
+    left: 145px;
+    top: 40px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 48px;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+
+.strong_1 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.card_1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 255px;
+    height: 265px;
+    left: 145px;
+    top: 174px;
+    border: 1px solid #9A2E9D;
+}
+
+.card_1 img {
+    position: absolute;
+    left: 70px;
+    top: 50px;
+}
+
+.card_1 h3 {
+    position: absolute;
+    left: 90px;
+    top: 185px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+
+.card_2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 255px;
+    height: 265px;
+    left: 430px;
+    top: 174px;
+    border: 1px solid #9A2E9D;
+}
+
+.card_2 img {
+    position: absolute;
+    left: 70px;
+    top: 50px;
+}
+
+.card_2 h3 {
+    position: absolute;
+    left: 60px;
+    top: 185px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+
+.card_3 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 255px;
+    height: 265px;
+    left: 715px;
+    top: 174px;
+    border: 1px solid #9A2E9D;
+}
+
+.card_3 img {
+    position: absolute;
+    left: 70px;
+    top: 50px;
+}
+
+.card_3 h3 {
+    position: absolute;
+    left: 10px;
+    top: 180px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+
+.card_4 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 255px;
+    height: 265px;
+    left: 1000px;
+    top: 174px;
+    border: 1px solid #9A2E9D;
+}
+
+.card_4 img {
+    position: absolute;
+    left: 70px;
+    top: 50px;
+}
+
+.card_4 h3 {
+    width: 100px;
+    position: absolute;
+    left: 55px;
+    top: 180px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+
+.strong_2 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.card_5 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 255px;
+    height: 265px;
+    left: 145px;
+    top: 500px;
+    border: 1px solid #9A2E9D;
+}
+
+.card_5 img {
+    position: absolute;
+    left: 70px;
+    top: 50px;
+}
+
+.card_5 h3 {
+    width: 200px;
+    position: absolute;
+    left: 50px;
+    top: 185px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+
+.card_6 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 255px;
+    height: 265px;
+    left: 430px;
+    top: 500px;
+    border: 1px solid #9A2E9D;
+
+}
+
+.card_6 img {
+    position: absolute;
+    left: 70px;
+    top: 50px;
+}
+
+.card_6 h3 {
+    position: absolute;
+    left: 20px;
+    top: 150px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+    width: 200px;
+}
+
+.card_7 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 255px;
+    height: 265px;
+    left: 715px;
+    top: 500px;
+    border: 1px solid #9A2E9D;
+}
+
+.card_7 img {
+    position: absolute;
+    left: 70px;
+    top: 50px;
+}
+
+.card_7 h3 {
+    position: absolute;
+    width: 200px;
+    left: 40px;
+    top: 165px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+
+.card_8 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 255px;
+    height: 265px;
+    left: 1000px;
+    top: 500px;
+    border: 1px solid #9A2E9D;
+}
+
+.card_8 img {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.card_8 h3 {
+    width: 200px;
+    position: absolute;
+    left: 30px;
+    top: 175px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+
+.strong_3 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.card_9 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 255px;
+    height: 265px;
+    left: 145px;
+    top: 825px;
+    border: 1px solid #9A2E9D;
+}
+
+.card_9 img {
+    position: absolute;
+    left: 70px;
+    top: 50px;
+}
+
+.card_9 h3 {
+    position: absolute;
+    width: 200px;
+    left: 30px;
+    top: 155px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+
+.card_10 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 255px;
+    height: 265px;
+    left: 430px;
+    top: 825px;
+    border: 1px solid #9A2E9D;
+}
+
+.card_10 img {
+    position: absolute;
+    left: 70px;
+    top: 50px;
+}
+
+.card_10 h3 {
+    position: absolute;
+    left: 30px;
+    top: 155px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+
+.card_11 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 255px;
+    height: 265px;
+    left: 715px;
+    top: 825px;
+    border: 1px solid #9A2E9D;
+}
+
+.card_11 img {
+    position: absolute;
+    left: 70px;
+    top: 50px;
+}
+
+.card_11 h3 {
+    position: absolute;
+    left: 10px;
+    top: 155px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+
+.card_12 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 255px;
+    height: 265px;
+    left: 1000px;
+    top: 825px;
+    border: 1px solid #9A2E9D;
+}
+
+.card_12 img {
+    position: absolute;
+    left: 70px;
+    top: 50px;
+}
+
+.card_12 h3 {
+    width: 150px;
+    position: absolute;
+    left: 55px;
+    top: 165px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+
+.services {
+    position: absolute;
+    width: 1110px;
+    height: 60px;
+    left: 145px;
+    top: 1101px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 48px;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+
+
+.card_13 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 255px;
+    height: 265px;
+    left: 145px;
+    top: 1220px;
+    border: 1px solid #9A2E9D;
+}
+
+.card_13 img {
+    position: absolute;
+    left: 70px;
+    top: 50px;
+}
+
+.card_13 h3 {
+    position: absolute;
+    width: 200px;
+    left: 60px;
+    top: 190px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'liga';
+    color: #FFFFFF;
+}
+
+.card_14 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 255px;
+    height: 265px;
+    left: 430px;
+    top: 1220px;
+    border: 1px solid #9A2E9D;
+}
+
+.card_14 img {
+    position: absolute;
+    left: 90px;
+    top: 50px;
+}
+
+.card_14 h3 {
+    position: absolute;
+    width: 150px;
+    left: 60px;
+    top: 155px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'liga';
+    color: #FFFFFF;
+}
+
+.card_15 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 255px;
+    height: 265px;
+    left: 715px;
+    top: 1220px;
+    border: 1px solid #9A2E9D;
+}
+
+.card_15 img {
+    position: absolute;
+    left: 70px;
+    top: 50px;
+}
+
+.card_15 h3 {
+    position: absolute;
+    left: 90px;
+    top: 155px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'liga';
+    color: #FFFFFF;
+}
+
+
+.mission {
+    position: absolute;
+    margin-top: 2200x;
+    width: 1500px;
+    height: 445px;
+}
+
+.mission.after {
+    margin-top: 1500px;
+}
+
+.background {
+    background: #201225;
+    width: 1517px;
+    height: 445px;
+    margin-top: 2200px;
+}
+
+.background img {
+    margin-left: 722px;
+}
+
+.mission p {
+    width: 550px;
+    height: 35px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-top: -330px;
+    margin-left: 150px;
+}
+
+.mission h2 {
+    width: 712px;
+    height: 180px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: -0px;
+    margin-left: 150px;
+    color: #FFFFFF;
+}
+
+.contacts {
+    position: absolute;
+    width: 1500px;
+    height: 538px;
+    left: 0px;
+    top: 3005px;
+    background: #FFFFFF;
+}
+
+
+.contacts.click{
+    margin-top:1500px;
+}
+
+.info {
+    width: 1100px;
+    height: 48px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 48px;
+    color: #771975;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+.office {
+    width: 665px;
+    height: 35px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    margin-left: 200px;
+}
+
+.address {
+    width: 665px;
+    height: 80px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    margin-left: 200px;
+    margin-top: 0;
+}
+
+
+.support {
+    margin-left: 200px;
+    margin-top: 0;
+    width: 400px;
+    height: 35px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.number {
+    width: 400px;
+    height: 35px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    margin-left: 200px;
+    margin-top: 0;
+}
+
+.development {
+    width: 400px;
+    height: 35px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    margin-left: 1000px;
+    margin-top: -300px;
+}
+
+.name {
+    width: 400px;
+    height: 35px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    margin-left: 1000px;
+    margin-top: 0px;
+}
+
+.num {
+    width: 365px;
+    height: 35px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    margin-left: 1000px;
+    margin-top: -30px;
+}
+
+.link {
+    width: 400px;
+    height: 35px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    color: #771975;
+    margin-left: 200px;
+}
+
+.link-2 {
+    width: 400px;
+    height: 35px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    color: #771975;
+    margin-left: 1000px;
+}
+
+footer {
+    position: absolute;
+    width: 1500px;
+    height: 863px;
+    top: 3570px;
+}
+
+footer.bottom{
+    margin-top:1550px;
+}
+
+footer img {
+    position: relative;
+    width:1517px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+footer h2 {
+    width: 1110px;
+    height: 49px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 48px;
+    color: #771975;
+    position: absolute;
+    top: 60px;
+    left: 150px;
+}
+
+.let {
+    width: 608px;
+    height: 35px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    position: absolute;
+    top: 170px;
+    left: 150px;
+    color: #000;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 30px;
+    position: absolute;
+    width: 1100px;
+    height: 279px;
+    left: 145px;
+    top: 245px;
+    background: #FFFFFF;
+    margin-top: 100px;
+}
+
+.appellation {
+    width: 50px;
+    height: 12px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 12px;
+    color: #858585;
+}
+
+.appellation-2 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 14px 12px;
+    gap: 10px;
+    width: 500px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+}
+
+.company {
+    width: 200px;
+    height: 12px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 12px;
+    color: #858585;
+}
+
+.company-2 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 14px 12px;
+    gap: 10px;
+    width: 500px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+}
+
+.telephone {
+    width: 200px;
+    height: 12px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 12px;
+    color: #858585;
+}
+
+.telephone-2 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 14px 12px;
+    gap: 10px;
+    width: 500px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+}
+
+.mail {
+    width: 200px;
+    height: 12px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 12px;
+    color: #858585;
+}
+
+.mail-2 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 14px 12px;
+    gap: 10px;
+    width: 500px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+}
+
+footer button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 20px;
+    width: 150px;
+    height: 45px;
+    background: linear-gradient(90deg, #EA4106 0%, #761976 100%);
+    border-radius: 50px;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 17px;
+    margin-top: 200px;
+    margin-left: -1060px;
+}
